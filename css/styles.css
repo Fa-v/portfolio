@@ -11,7 +11,7 @@ html {
   box-sizing: inherit;
 }
 
-.container, .header, .section {
+.container, .header, .heroe-section, .featured-work-title, .featured-work {
   display: flex;
 }
 
@@ -44,9 +44,37 @@ html {
 
 .heroe-section {
   width: 100%;
+  margin-top: 2em;
   justify-content: flex-end;
 }
 
 .heroe-image {
   width: 80%;
+}
+
+/* Featured work */
+
+.featured-work-title {
+  margin-top: 2em;
+  font-size: 2em;
+}
+
+.featured-work {
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+/* .app {
+  width: 30%;
+} */
+
+.app-image {
+  width: 100%;
+}
+
+.app-info, a {
+  text-align: center;
+  text-decoration: none;
+  color: #555;
 }
