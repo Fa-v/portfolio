@@ -11,7 +11,7 @@ html {
   box-sizing: inherit;
 }
 
-.container, .header {
+.container, .header, .section {
   display: flex;
 }
 
@@ -38,4 +38,15 @@ html {
 .site-logo {
   width: 80px;
   margin-top: 25px;
+}
+
+/* Heroe image */
+
+.heroe-section {
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.heroe-image {
+  width: 80%;
 }
