@@ -48,15 +48,12 @@ html {
   justify-content: flex-end;
 }
 
-.heroe-image {
-  width: 80%;
-}
-
 /* Featured work */
 
 .featured-work-title {
   margin-top: 2em;
   font-size: 2em;
+  color: #555;
 }
 
 .featured-work {
@@ -65,9 +62,9 @@ html {
   justify-content: space-between;
 }
 
-/* .app {
+.app {
   width: 30%;
-} */
+}
 
 .app-image {
   width: 100%;
@@ -77,4 +74,5 @@ html {
   text-align: center;
   text-decoration: none;
   color: #555;
+  padding: 1em;
 }
