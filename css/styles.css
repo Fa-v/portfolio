@@ -3,7 +3,7 @@ html {
   width: 100%;
   height: 100%;
   margin: 0;
-  line-height: 25%;
+  /* line-height: 25%; */
 }
 *,
 *::before,
@@ -11,137 +11,14 @@ html {
   box-sizing: inherit;
 }
 
-.container, .header, .heroe-section, .featured-work-title, .featured-work {
-  display: flex;
-}
-
 .container {
-  flex-flow: row wrap;
   padding: 2em;
-  font-family: 'Marcellus', serif;
-}
-
-/* Header */
-
-.header {
-  width: 100%;
-  justify-content: space-between;
-}
-
-.site-title {
-  width: 75%;
-  font-family: 'Marcellus', serif;
-  font-size: 2.5em;
-  color: #555;
 }
 
 .site-logo {
-  width: 25%;
-  text-align: right;
+  margin-top: 53px;
 }
 
 .logo {
-  width: 80px;
-  margin-top: 25px;
-}
-
-/* Heroe image */
-
-.heroe-section {
-  width: 100%;
-  margin-top: 2em;
-  justify-content: flex-end;
-}
-
-/* Featured work */
-
-.featured-work-title {
-  margin-top: 2em;
-  font-size: 2em;
-  color: #555;
-}
-
-.featured-work {
-  width: 100%;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-
-.app {
   width: 30%;
-}
-
-.app-image {
-  width: 100%;
-}
-
-.app-info, a {
-  text-align: center;
-  text-decoration: none;
-  color: #555;
-  padding: 1em;
-}
-
-@media only screen and (min-width: 650px) and (max-width: 949px) {
-  .heroe-section{
-    justify-content: flex-start;
-    margin-top: 1em;
-  }
-
-  .heroe-image {
-    width: 100%;
-  }
-
-  .site-title, .featured-work-title {
-    font-size: 1.5em;
-  }
-
-  .logo {
-    width: 40px;
-    margin-top: 12.5px;
-  }
-
-  .featured-work-title {
-    margin-top: 1em;
-  }
-
-  .app {
-    width: 50%;
-  }
-
-  .app-one {
-    padding-right: 1em;
-  }
-}
-
-@media only screen and (max-width: 699px) {
-  .container {
-    padding: 1em;
-  }
-
-  .site-title, .featured-work-title {
-    font-size: 0.9em;
-  }
-
-  .header {
-    padding-bottom: 1em;
-    border-bottom: 2px solid #99211d;
-  }
-
-  .heroe-image {
-    display: none;
-  }
-
-  .featured-work-title {
-    margin: 0 0 1em 0;
-  }
-
-  .logo {
-    width: 30px;
-    margin-top: 6.5px;
-  }
-
-  .app {
-    width: 100%;
-  }
 }
