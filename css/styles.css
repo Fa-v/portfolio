@@ -82,7 +82,7 @@ html {
   padding: 1em;
 }
 
-@media only screen and (min-width: 750px) and (max-width: 949px) {
+@media only screen and (min-width: 650px) and (max-width: 949px) {
   .heroe-section{
     justify-content: flex-start;
     margin-top: 1em;
@@ -111,5 +111,37 @@ html {
 
   .app-one {
     padding-right: 1em;
+  }
+}
+
+@media only screen and (max-width: 699px) {
+  .container {
+    padding: 1em;
+  }
+
+  .site-title, .featured-work-title {
+    font-size: 0.9em;
+  }
+
+  .header {
+    padding-bottom: 1em;
+    border-bottom: 2px solid #99211d;
+  }
+
+  .heroe-image {
+    display: none;
+  }
+
+  .featured-work-title {
+    margin: 0 0 1em 0;
+  }
+
+  .logo {
+    width: 30px;
+    margin-top: 6.5px;
+  }
+
+  .app {
+    width: 100%;
   }
 }
