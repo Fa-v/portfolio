@@ -1,3 +1,7 @@
 .featured-work-title {
   padding: 1rem;
 }
+
+.b--red {
+  border-color: #99211d;
+}
