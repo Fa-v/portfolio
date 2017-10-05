@@ -6,6 +6,10 @@
   border-color: #99211d;
 }
 
+.hover-dark-red:hover {
+  color: #99211d
+}
+
 .modal {
   display: none;
   position: fixed;
