@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
   $('.button').click(function () {
     var modal = $(this).data('modal');
     $('#' + modal).fadeIn(300);
@@ -8,8 +7,4 @@ $(document).ready(function () {
   $('.close').click(function () {
     $('.modal').fadeOut(300);
   });
-
 });
-
-
-
