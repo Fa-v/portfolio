@@ -7,7 +7,7 @@
 }
 
 .hover-dark-red:hover {
-  color: #99211d
+  color: #99211d;
 }
 
 .button:hover {
@@ -30,6 +30,6 @@
   cursor: pointer;
 }
 
-.modal-btn:hover{
+.modal-btn:hover {
   color: #555;
 }
