@@ -2,11 +2,11 @@ $(document).ready(function () {
 
   $('.button').click(function () {
     var modal = $(this).data('modal');
-    $('#' + modal).show('slow');
+    $('#' + modal).fadeIn(300);
   });
 
   $('.close').click(function () {
-    $('.modal').hide('slow');
+    $('.modal').fadeOut(300);
   });
 
 });
